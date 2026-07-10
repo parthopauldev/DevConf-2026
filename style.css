@@ -71,3 +71,42 @@ nav ul li a{
 }
 
 /* hero section end */
+/* Gallery section start  */
+.gallery h2{
+    text-align: center;
+    padding: 50px;
+    font-size: 56px;
+    font-weight: bold;
+}
+.item{
+    border: 1px solid #575757;
+    border-radius: 12px;
+
+}
+.item-parent{
+   display: grid;
+   grid-template-columns: auto auto;
+  
+    gap: 10px;
+}
+
+.text-container{
+    padding: 20px;
+}
+
+
+.text-container p{
+color: #2563EB;
+font-size: 12px;
+font-weight: 200;
+padding-bottom: 10px;
+}
+.text-container h3{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.text-container h5{
+    color: #575757;
+    font-size: 14px;
+} 
+/* Gallery section end  */
