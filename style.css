@@ -3,49 +3,59 @@
     padding: 0;
     margin: 0;
     box-sizing: content-box;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", sans-serif;
+
 
 }
-img{
+
+img {
     max-width: 100%;
 }
+
 /* common style */
-.common-btn{
-  background-color:#1D4ED8; 
-  padding: 6px 16px; 
-  border-radius: 5px;
-  font-weight: bold;
-  font-size: 22px;
-  color: white;
-  cursor: pointer;
+.common-btn {
+    background-color: #1D4ED8;
+    padding: 6px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
 }
-.container{
+
+.container {
     max-width: 1200px;
-margin: auto;    
-padding: 10px;
+    margin: auto;
+    padding: 10px;
 }
+
 /* navber start  */
-.logo{
+.logo {
     height: 44px;
     width: 134px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-nav ul{
+
+nav ul {
     display: flex;
     gap: 10px;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
 }
-nav ul li a{
-   text-decoration: none;
-   color: #575757;
-   font-size: 18px;
+
+nav ul li a {
+    text-decoration: none;
+    color: #575757;
+    font-size: 18px;
 }
+
 /* nav end  */
 /* hero section start  */
 .hero {
@@ -55,58 +65,123 @@ nav ul li a{
     text-align: center;
     color: white;
 }
-.hero h1{
+
+.hero h1 {
     padding: 100px 0px 20px;
     font-size: 80px;
     font-weight: bold;
 }
-.hero p{
+
+.hero p {
     font-size: 22px;
     font-weight: 300;
     padding-bottom: 150px;
-    color:#575757 ;
+    color: #575757;
 }
-.hero button{
+
+.hero button {
     padding: 20px 30px;
 }
 
 /* hero section end */
 /* Gallery section start  */
-.gallery h2{
+.gallery h2 {
     text-align: center;
     padding: 50px;
     font-size: 56px;
     font-weight: bold;
 }
-.item{
+
+.item {
     border: 1px solid #575757;
     border-radius: 12px;
 
 }
-.item-parent{
-   display: grid;
-   grid-template-columns: auto auto;
-  
+
+.item-parent {
+    display: grid;
+    grid-template-columns: auto auto;
+
     gap: 10px;
 }
 
-.text-container{
+.text-container {
     padding: 20px;
 }
 
 
-.text-container p{
-color: #2563EB;
-font-size: 12px;
-font-weight: 200;
-padding-bottom: 10px;
+.text-container p {
+    color: #2563EB;
+    font-size: 12px;
+    font-weight: 200;
+    padding-bottom: 10px;
 }
-.text-container h3{
+
+.text-container h3 {
     font-size: 20px;
     padding-bottom: 10px;
 }
-.text-container h5{
+
+.text-container h5 {
     color: #575757;
     font-size: 14px;
-} 
+}
+
 /* Gallery section end  */
+/* card section start  */
+.card-parent-root h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 100px;
+    
+}
+.card-parent-root> p{
+   text-align: center;
+ padding-bottom: 30px;
+   color: #575757;
+
+}
+.card{
+     border: 1px solid #575757;
+     padding: 15px;
+     border-radius: 10px;
+}
+.card h5{
+    color: #575757;
+    font-size: 16px;
+    padding-bottom: 10px;
+
+}
+.card h1{
+    font-size: 44px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.card p{
+color: #575757;
+padding: 6px;
+}
+.card button{
+    width: 80%;
+    padding: 10px;
+    font-size: 22px;
+    color: #1D4ED8;
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.card-parent{
+    display: flex;
+   
+    justify-content: space-between;
+}
+.black{
+    background: #0D1B2A;
+    color: white;
+}
+.black button{
+    background: #1D4ED8;
+    color: white;
+}
+/* card section end  */
