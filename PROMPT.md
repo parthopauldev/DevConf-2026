@@ -1,0 +1,1 @@
+i have create dev confaretion website .there are navber hero section gallerry setion card section footer section in our website give me html css code of one more section
