@@ -248,3 +248,18 @@ padding: 6px;
     color:#666;
     line-height:1.7;
 }
+footer{
+    background: #0D1B2A;
+    padding: 10px;
+    color: #575757;
+}
+footer>div{
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: center;
+}
+.container div{
+    display: flex;
+    gap: 10px;
+}
