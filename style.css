@@ -259,7 +259,7 @@ footer>div{
    
     align-items: center;
 }
-.container div{
+.Privacy-container{
     display: flex;
     gap: 10px;
 }
