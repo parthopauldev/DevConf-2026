@@ -185,3 +185,66 @@ padding: 6px;
     color: white;
 }
 /* card section end  */
+/* Why Attend Section */
+
+.why-attend{
+    background:#f8f9ff;
+    padding:80px 10%;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    font-size:40px;
+    color:#222;
+    margin-bottom:15px;
+}
+
+.section-title p{
+    color:#666;
+    font-size:18px;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.feature-card{
+    background:#fff;
+    padding:35px 25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.feature-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+.icon{
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.feature-card h3{
+    font-size:24px;
+    margin-bottom:15px;
+    color:#222;
+}
+
+.feature-card p{
+    color:#666;
+    line-height:1.7;
+}
